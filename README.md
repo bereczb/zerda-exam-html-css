@@ -81,19 +81,28 @@ Add your answer to this readme file, commit your changes to this repository.
 </html>
 ```
 #### Your answer: [2p]
-Top left corner position of body is (0, 0)
-Top left corner position of blue box (foo) is (20, 20)
+Top left corner position of body is (0, 0), because padding is 0px and margin is 0px.
+Top left corner position of blue box (foo) is (20, 20) because of the direct given absolute position.
 Top left corner position of yellow box (bar) is (40, 40) -> (absolute position of blue box + absolute position of yellow box)
 The distance between the top-left corner of the document body and the top-left corner of yellow box is 40px to the right and 40px down which means 56.57px as a straight line.
 
 ## 3. Explain concepts (~15 minutes) [4 points]
-Add your answer to this readme file, commit your changes to this repository.
-
-
 
 ### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
 #### Your answer: [2p]
 
+Add your answer to this readme file, commit your changes to this repository.
+
+display: block -> the element has width and height, padding and margin. The block element comes below the previous one.
+
+display: inline -> the width and height of the element is the space what the text or other object in the element covers. The inline element comes to the right of the previous element.
+
+display: inline-block -> inline-block element has padding and margin, behaves as a block element except that the inline-block element comes to the right of the previous element.
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: [2p]
+
+<section> is part of an <article>
+
+Article can be a news article or a blog post.
+Section can be a chapter of an article or such a part of it where it makes sense to give a title to.
