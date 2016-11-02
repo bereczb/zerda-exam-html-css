@@ -14,12 +14,14 @@
 }
 
 .second{
-  
+  margin-top: 20px;
+  background-color: #ACB8DF;
 }
 
-.duck1{
+.duck{
   border-right: 10px solid #556392;
   width: 180px;
+  margin-bottom: -3px;
   object-fit: scale-down;
 }
 
