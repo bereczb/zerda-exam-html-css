@@ -102,7 +102,7 @@ display: inline-block -> inline-block element has padding and margin, behaves as
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: [2p]
 
-<section> is part of an <article>
+section is part of an article
 
 Article can be a news article or a blog post.
 Section can be a chapter of an article or such a part of it where it makes sense to give a title to.
