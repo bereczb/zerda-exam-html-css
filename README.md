@@ -81,10 +81,14 @@ Add your answer to this readme file, commit your changes to this repository.
 </html>
 ```
 #### Your answer: [2p]
-
+Top left corner position of body is (0, 0)
+Top left corner position of blue box (foo) is (20, 20)
+Top left corner position of yellow box (bar) is (40, 40) -> (absolute position of blue box + absolute position of yellow box)
+The distance between the top-left corner of the document body and the top-left corner of yellow box is 40px to the right and 40px down which means 56.57px as a straight line.
 
 ## 3. Explain concepts (~15 minutes) [4 points]
 Add your answer to this readme file, commit your changes to this repository.
+
 
 
 ### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
